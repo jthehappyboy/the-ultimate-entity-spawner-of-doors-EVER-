@@ -61,7 +61,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 1000,
+		Speed = 200,
 		Delay = 2,
 		Reversed = True
 	},
@@ -548,7 +548,7 @@ local entity = spawner.Create({
 		Values = {1.5, 20, 0.1, 1} -- Magnitude, Roughness, FadeIn, FadeOut
 	},
 	Movement = {
-		Speed = 300,
+		Speed = 450,
 		Delay = 2,
 		Reversed = false
 	},
@@ -818,8 +818,8 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/DripC
 local entity = Creator.createEntity({
     CustomName = "Rebound", -- Custom name of your entity
     Model = "rbxassetid://12847597717", -- Can be GitHub file or rbxassetid
-    Speed = speed, -- Percentage, 100 = default Rush speed
-    DelayTime = fuck, -- Time before starting cycles (seconds)
+    Speed = 500, -- Percentage, 100 = default Rush speed
+    DelayTime = 1, -- Time before starting cycles (seconds)
     HeightOffset = 0.3,
     CanKill = true,
     BreakLights = false,
@@ -831,7 +831,7 @@ local entity = Creator.createEntity({
     },
     Cycles = {
         Min = 1,
-        Max = 1
+        Max = 1,
     },
     CamShake = {
         true, -- Enabled
@@ -895,8 +895,8 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/DripC
 local entity = Creator.createEntity({
     CustomName = "Rebound2", -- Custom name of your entity
     Model = "rbxassetid://12847597717", -- Can be GitHub file or rbxassetid
-    Speed = speed, -- Percentage, 100 = default Rush speed
-    DelayTime = fuck, -- Time before starting cycles (seconds)
+    Speed = 248, -- Percentage, 100 = default Rush speed
+    DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 0.3,
     CanKill = true,
     BreakLights = false,
@@ -972,8 +972,8 @@ local Creator = loadstring(game:HttpGet("https://raw.githubusercontent.com/DripC
 local entity = Creator.createEntity({
     CustomName = "Rebound3", -- Custom name of your entity
     Model = "rbxassetid://12847597717", -- Can be GitHub file or rbxassetid
-    Speed = speed, -- Percentage, 100 = default Rush speed
-    DelayTime = fuck, -- Time before starting cycles (seconds)
+    Speed = 222, -- Percentage, 100 = default Rush speed
+    DelayTime = 0, -- Time before starting cycles (seconds)
     HeightOffset = 0.3,
     CanKill = true,
     BreakLights = false,
